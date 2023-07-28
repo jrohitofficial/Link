@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Rohit Jha | PORTFOLIO</title>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<script type="text/javascript" src="engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#about" class="nav__logo">RJ</a>
+
+            <a href="https://jrohit.com.np/" class="nav__logo">"WELCOME TO MY WORLD"</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="https://www.futurepedia.io/" class="nav__link">
+                            <i class='bx bx-globe-alt'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello World, I'm</span>
+                    <h1 class="home__name">ROHIT JHA</h1>
+                    <h3 class="home__education">𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝙴𝚗𝚐𝚒𝚗𝚎𝚎𝚛 | 𝙴𝚝𝚑𝚒𝚌𝚊𝚕 𝙷𝚊𝚌𝚔𝚎𝚛 | 𝙿𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚎𝚛 | 𝙵𝚞𝚕𝚕 𝚂𝚝𝚊𝚌𝚔 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 | 𝚂𝚢𝚜𝚝𝚎𝚖 𝚂𝚎𝚌𝚞𝚛𝚒𝚝𝚢 | 𝚈𝚘𝚞𝚝𝚞𝚋𝚎𝚛</h3>
+
+                    <div class="home__button">
+                        <a download="" href="pdf/RJ-CV.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="./vcard/about.html" class="button">Get More</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/getintorj/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/getintorj" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.facebook.com/getintorj/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.instagram.com/getintorj_/?hl=en/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCkpkZEUKpAUopaQexcucU4w/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@getintorj_" target="_blank" class="home__social-link">
+                        <i class='bx bxl-tiktok'></i>
+                    </a>
+                    <a href="https://www.snapchat.com/add/getintorj?share_id=LAhuJz4GkJw&locale=en-GB" target="_blank" class="home__social-link">
+                        <i class='bx bxl-snapchat'></i>
+                    </a>
+                </div>
+
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="img/about.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Degree</h3>
+                            <span class="about__subtitle">Bachelor in Software Engineering</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-cake about__icon'></i>
+                            <h3 class="about__title">Birthday</h3>
+                            <span class="about__subtitle">19th March</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-mail-send about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Getintorj@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Software Engineer with a demonstrated history of working in the field of DevOPs. Skilled in Networking, Front-End, Back-End, Java, Python, React, Flutter and Linux Server. Strong operations professional with a Bachelor of Engineering (Bsc.CSIT) focused
+                        in Software Engineering and Ethical Hacking from Coventry University, UK
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">GET IN TOUCH</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS/SCSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python/JAVA</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Mongo DB</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Software <br> Development</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Software Development</h3>
+
+                            <p class="services__modal-description">
+                                I design and develop the consumer products with creative ability and hands-on approach which stisfies the customers' and markets' needs and trends.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I Develop the Android Applications.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Web Page design and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I create the UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Create modern 3-D experiences.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">UI/UX <br> Designing</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">UI/UX Designing</h3>
+
+                            <p class="services__modal-description">
+                                I design and develop the consumer products with creative ability and hands-on approach which stisfies the customers' and markets' needs and trends.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I develop the user interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Web Page design and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I create the UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Create modern 3-D experiences.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Ethical <br> Hacking</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Ethical Hacking</h3>
+
+                            <p class="services__modal-description">
+                                I design and develop the consumer products with creative ability and hands-on approach which stisfies the customers' and markets' needs and trends.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I develop the user interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Web Page design and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I create the UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Create modern 3-D experiences.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Web</span>
+                <span class=" work__item" data-filter='.soft'>Software</span>
+                <span class=" work__item" data-filter='.hacking'>Hacking</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Applications</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix soft">
+                    <img src="img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Software Development</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix hacking">
+                    <img src="img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Bug Bounty </h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix soft">
+                    <img src="img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Mobile Application</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./img/SJ.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Saroj Jha</h3>
+                        <p class="testimonial__description">
+                            "A really good job, all aspects of the project were done well. Very creative and thoughtful. I was very impressed and would recommend this to anyone."
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./img/RRJ.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Roshani Jha</h3>
+                        <p class="testimonial__description">
+                            "A really good job, all aspects of the project were done well. Very creative and thoughtful. I was very impressed and would recommend this to anyone."
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./img/AJ.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Aashis Jha</h3>
+                        <p class="testimonial__description">
+                            "A really good job, all aspects of the project were done well. Very creative and thoughtful. I was very impressed and would recommend this to anyone."
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">getintorj@gmail.com</span>
+
+                            <a href="mailto:getintorj@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+977 9844221364</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+9779844221364&text=Hey there!" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <h3 class="contact__card-title">Instagram</h3>
+                            <span class="contact__card-data">getintorj_</span>
+
+                            <a href="https://instagram.com/getintorj_" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="https://formsubmit.co/getintorj@gmail.com" method="POST" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="Enter email" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Message</label>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Write your Message" class="contact__form-input"></textarea>
+                        </div>
+                        <button class="button">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+
+    <!-- Start Slider BODY section -->
+    <!-- add to the <body> of your page -->
+    
+    
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container2">
+	<div class="ws_images"><ul>
+		<li><img src="data2/images/online_certification_1.jpg" alt="Online Certification (1)" title="Online Certification (1)" id="wows2_0"/></li>
+		<li><img src="data2/images/online_certification_10.jpg" alt="Online Certification (10)" title="Online Certification (10)" id="wows2_1"/></li>
+		<li><img src="data2/images/online_certification_11.jpg" alt="Online Certification (11)" title="Online Certification (11)" id="wows2_2"/></li>
+		<li><img src="data2/images/online_certification_12.jpg" alt="Online Certification (12)" title="Online Certification (12)" id="wows2_3"/></li>
+		<li><img src="data2/images/online_certification_13.jpg" alt="Online Certification (13)" title="Online Certification (13)" id="wows2_4"/></li>
+		<li><img src="data2/images/online_certification_16.jpg" alt="Online Certification (16)" title="Online Certification (16)" id="wows2_5"/></li>
+		<li><img src="data2/images/online_certification_17.jpg" alt="Online Certification (17)" title="Online Certification (17)" id="wows2_6"/></li>
+		<li><img src="data2/images/online_certification_18.jpg" alt="Online Certification (18)" title="Online Certification (18)" id="wows2_7"/></li>
+		<li><img src="data2/images/online_certification_19.jpg" alt="Online Certification (19)" title="Online Certification (19)" id="wows2_8"/></li>
+		<li><img src="data2/images/online_certification_2.jpg" alt="Online Certification (2)" title="Online Certification (2)" id="wows2_9"/></li>
+		<li><img src="data2/images/online_certification_20.jpg" alt="Online Certification (20)" title="Online Certification (20)" id="wows2_10"/></li>
+		<li><img src="data2/images/online_certification_21.jpg" alt="Online Certification (21)" title="Online Certification (21)" id="wows2_11"/></li>
+		<li><img src="data2/images/online_certification_22.jpg" alt="Online Certification (22)" title="Online Certification (22)" id="wows2_12"/></li>
+		<li><img src="data2/images/online_certification_23.jpg" alt="Online Certification (23)" title="Online Certification (23)" id="wows2_13"/></li>
+		<li><img src="data2/images/online_certification_24.jpg" alt="Online Certification (24)" title="Online Certification (24)" id="wows2_14"/></li>
+		<li><img src="data2/images/online_certification_3.jpg" alt="Online Certification (3)" title="Online Certification (3)" id="wows2_15"/></li>
+		<li><img src="data2/images/online_certification_4.jpg" alt="Online Certification (4)" title="Online Certification (4)" id="wows2_16"/></li>
+		<li><img src="data2/images/online_certification_5.jpg" alt="Online Certification (5)" title="Online Certification (5)" id="wows2_17"/></li>
+		<li><img src="data2/images/online_certification_7.jpg" alt="Online Certification (7)" title="Online Certification (7)" id="wows2_18"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/online_certification_8.jpg" alt="slideshow html code" title="Online Certification (8)" id="wows2_19"/></a></li>
+		<li><img src="data2/images/online_certification_9.jpg" alt="Online Certification (9)" title="Online Certification (9)" id="wows2_20"/></li>
+	</ul></div>
+	<div class="ws_thumbs">
+<div>
+		<a href="#" title="Online Certification (1)"><img src="data2/tooltips/online_certification_1.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (10)"><img src="data2/tooltips/online_certification_10.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (11)"><img src="data2/tooltips/online_certification_11.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (12)"><img src="data2/tooltips/online_certification_12.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (13)"><img src="data2/tooltips/online_certification_13.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (16)"><img src="data2/tooltips/online_certification_16.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (17)"><img src="data2/tooltips/online_certification_17.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (18)"><img src="data2/tooltips/online_certification_18.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (19)"><img src="data2/tooltips/online_certification_19.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (2)"><img src="data2/tooltips/online_certification_2.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (20)"><img src="data2/tooltips/online_certification_20.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (21)"><img src="data2/tooltips/online_certification_21.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (22)"><img src="data2/tooltips/online_certification_22.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (23)"><img src="data2/tooltips/online_certification_23.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (24)"><img src="data2/tooltips/online_certification_24.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (3)"><img src="data2/tooltips/online_certification_3.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (4)"><img src="data2/tooltips/online_certification_4.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (5)"><img src="data2/tooltips/online_certification_5.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (7)"><img src="data2/tooltips/online_certification_7.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (8)"><img src="data2/tooltips/online_certification_8.jpg" alt="" /></a>
+		<a href="#" title="Online Certification (9)"><img src="data2/tooltips/online_certification_9.jpg" alt="" /></a>
+	</div>
+</div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image slider</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine2/wowslider.js"></script>
+	<script type="text/javascript" src="engine2/script.js"></script>
+	<!-- End WOWSlider.com BODY section --><footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">🖥️SpY-d3RJ🖥️</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/getintorj" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://twitter.com/getintorj_" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/getintorj/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/getintorj_/?hl=en" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2023 ROHIT JHA All rights reserved.
+                <h6>Powered By: </h6>
+                <a href="https://jharohit.com.np" target="_blank" rel="noreferrer">BisKIRAN TECHNOLOGY</a>
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
